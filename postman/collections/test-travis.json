@@ -8,6 +8,23 @@
 	"item": [
 		{
 			"name": "echo",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "0d54f283-ac25-44c2-8bd8-75b4d4139f26",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"Response time is less than 500ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(500);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"id": "9a2854c6-46f1-421d-a6ac-2215e905b9b2",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
