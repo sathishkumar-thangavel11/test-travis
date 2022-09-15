@@ -1,0 +1,32 @@
+{
+	"info": {
+		"_postman_id": "3255b3b4-7e1b-46c3-a408-a009faa58815",
+		"name": "test-travis",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "23346059-3255b3b4-7e1b-46c3-a408-a009faa58815"
+	},
+	"item": [
+		{
+			"name": "echo",
+			"id": "9a2854c6-46f1-421d-a6ac-2215e905b9b2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "postman-echo.com/get",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"get"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
