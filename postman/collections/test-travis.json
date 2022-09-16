@@ -44,6 +44,28 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "1a15ced2-39fe-4e8c-984d-8296891f88b1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "postman-echo.com/get",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"get"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
